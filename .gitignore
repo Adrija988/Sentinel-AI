@@ -20,3 +20,8 @@ Thumbs.db
 *.pt
 *.keras
 *.h5
+
+# Models -> Backend:
+Weapon_best.pt
+Violence_Detection_best_model.keras
+Weapon_data.yaml
