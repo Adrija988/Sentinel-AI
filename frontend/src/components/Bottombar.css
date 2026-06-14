@@ -1,0 +1,96 @@
+.bottombar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 20px;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.bb-left { display: flex; align-items: center; gap: 8px; min-width: 160px; }
+.bb-shield { color: var(--accent-blue); }
+.bb-title {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+}
+
+.bb-center { display: flex; align-items: center; gap: 8px; }
+
+.bb-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.bb-btn:hover { border-color: var(--border-bright); color: var(--text-primary); }
+
+.bb-btn.active-red {
+  border-color: var(--accent-red);
+  color: var(--accent-red);
+  background: rgba(255, 59, 59, 0.08);
+}
+.bb-btn.active-yellow {
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+  background: rgba(255, 184, 0, 0.08);
+}
+
+.bb-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.bb-dot.red    { background: var(--accent-red); }
+.bb-dot.yellow { background: var(--accent-yellow); }
+.bb-dot.white  { background: var(--text-secondary); }
+
+.bb-more {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.bb-more:hover { border-color: var(--border-bright); color: var(--text-primary); }
+
+.bb-right { min-width: 180px; display: flex; justify-content: flex-end; }
+
+.bb-start {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 22px;
+  background: var(--accent-blue);
+  border: none;
+  border-radius: 8px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.bb-start:hover { filter: brightness(1.15); }
+.bb-start.stop  { background: var(--accent-red); }
+
+.bb-start-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.6);
+  flex-shrink: 0;
+}
+.bb-start-dot.pulse { background: #fff; animation: pulse-dot 0.8s infinite; }

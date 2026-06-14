@@ -1,0 +1,3 @@
+{names: [Automatic Rifle, Bazooka, Handgun, Knife, Grenade Launcher, Shotgun, SMG,
+    Sniper, Sword], nc: 9, train: //kaggle/input/weapon-annotation-data-modified/data/train/,
+  val: /kaggle/input/weapon-annotation-data-modified/data/val/}

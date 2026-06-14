@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #0d1221;
+  --bg-card: #111827;
+  --bg-card-hover: #141d2e;
+  --border: #1e2d45;
+  --border-bright: #1e3a5f;
+  --accent-blue: #1a6aff;
+  --accent-blue-glow: rgba(26, 106, 255, 0.3);
+  --accent-red: #ff3b3b;
+  --accent-red-glow: rgba(255, 59, 59, 0.3);
+  --accent-yellow: #ffb800;
+  --accent-yellow-glow: rgba(255, 184, 0, 0.3);
+  --accent-green: #00ff87;
+  --accent-green-glow: rgba(0, 255, 135, 0.2);
+  --text-primary: #e0e8ff;
+  --text-secondary: #6b7fa3;
+  --text-muted: #3d4f6b;
+  --font-mono: 'Share Tech Mono', monospace;
+  --font-main: 'Exo 2', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  overflow: hidden;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.8); }
+}
+
+@keyframes scanline {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(400px); }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes progress-fill {
+  from { width: 0; }
+}
