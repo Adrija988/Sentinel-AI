@@ -31,4 +31,6 @@ Place the downloaded model file in the backend folder of the project directory b
 ## Images
 
 <img width="800" height="450" alt="Website Images" src="https://github.com/user-attachments/assets/9f6dbf08-2f77-430e-93a2-b65349f56b51" />
+<img width="800" height="450" alt="Website Images" src="https://github.com/user-attachments/assets/a6941b15-38ca-486f-be68-04bb9e96b6a3" />
+
 
