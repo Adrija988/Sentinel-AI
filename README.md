@@ -8,6 +8,9 @@ Sentinel AI is an AI-powered surveillance system designed to detect weapons and 
 - Modern React-based dashboard
 - Fast and accurate deep learning models
 
+  ![Uploading WorkFlow.png…]()
+
+
 ## Tech Stack
 - Python
 - YOLOv8
