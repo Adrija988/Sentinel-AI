@@ -26,3 +26,9 @@ Download:
 https://www.kaggle.com/datasets/adrija1802/combined-model
 
 Place the downloaded model file in the backend folder of the project directory before running the application.
+
+
+## Images
+
+<img width="800" height="450" alt="Website Images" src="https://github.com/user-attachments/assets/9f6dbf08-2f77-430e-93a2-b65349f56b51" />
+
